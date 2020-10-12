@@ -23,5 +23,7 @@ Depois o interessado em visitar orfanato consiguirá localizar, por meio das inf
 
 ## Referência
 #### Essa aplicação está sendo desenvolvida com base na semana NLW #3 ( Next Level Week #3) da Rocketseat, os creditos pertence a esse time incrível!
-##### Saiba mais: https://rocketseat.com.br/
+#### Saiba mais: 
+- https://rocketseat.com.br/
+- https://github.com/Rocketseat
 
