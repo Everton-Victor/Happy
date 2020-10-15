@@ -79,3 +79,14 @@ input-block label span {
     padding: 1.6rem;
     line-height: 2.8rem;
 }
+.input-block.images button{
+    border: 1px dashed #96D2F0;
+    width: 100%;
+    background: #F5F8FA;
+    height: 6.4rem;
+    padding: 0 1.6rem;
+    margin-top: 2.4rem;
+    border-radius: 2rem;
+
+    cursor: pointer;
+}
