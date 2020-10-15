@@ -7,14 +7,19 @@ const path = require("path");
 // iniciando o express
 const server = express();
 
-// Utilizando os arquivos estaticos
-server.use(express.static('public'))
+server
+  // Utilizando os arquivos estaticos
+  .use(express.static("public"))
 
-// request -> pedido | response -> resposta do server
-// Criar uma rota
-.get("/", (request, response) => {
-  return response.sendFile(path.join(__dirname, "views", "index.html"))
-});
+  // Configurar template engine
+  .set('views', path.join(__dirname, "view"))
+  .set('view engine', 'hbs')
+
+  // request -> pedido | response -> resposta do server
+  // Criar uma rota
+  .get("/", (request, response) => {
+    return response.render('index')
+  });
 
 // Ligar o servidor
 server.listen(5500);
