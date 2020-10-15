@@ -1,0 +1,23 @@
+{
+  "name": "NLW",
+  "version": "1.0.0",
+  "description": "É uma aplicação web, que tem o objetivo localizar os orfanatos da sua cidade com maior facilidade.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Everton-Victor/Happy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Everton-Victor/Happy/issues"
+  },
+  "homepage": "https://github.com/Everton-Victor/Happy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
