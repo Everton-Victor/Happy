@@ -7,9 +7,13 @@ const path = require("path");
 // iniciando o express
 const server = express();
 
+// Utilizando os arquivos estaticos
+server.use(express.static('public'))
+
+// request -> pedido | response -> resposta do server
 // Criar uma rota
-server.get("/", (request, response) => {
-  return response.sendFile(path.join(__dirname, "views", "index.html"));
+.get("/", (request, response) => {
+  return response.sendFile(path.join(__dirname, "views", "index.html"))
 });
 
 // Ligar o servidor
