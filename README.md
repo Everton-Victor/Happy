@@ -1,7 +1,8 @@
 # Happy
 É uma aplicação web, que tem o objetivo localizar os orfanatos da sua cidade com maior facilidade. 
 
-![Home Page Happy](https://github.com/Everton-Victor/Happy/blob/main/capturaTela_README/homePage.PNG)
+<img src="https://github.com/Everton-Victor/Happy/blob/main/capturaTela_README/homePage.PNG" alt="HomePage Happy" width="580" height="400">
+<img src="https://github.com/Everton-Victor/Happy/blob/main/capturaTela_README/Mapa.PNG" alt="Mapa" width="580" height="340">
 
 ## Por quê?
 Existem muitas crianças que não recebe visitas nos orfanatos, por conta dá falta de acessibilidade aos mesmos. De modo que, essa plataforma irá aumentar as 
@@ -22,7 +23,10 @@ Depois o interessado em visitar orfanato consiguirá localizar, por meio das inf
 
 ### Banco de dados
 - SQL
-- SQLite
+- SQLite 
+
+#### Instalar o SQLite
+- npm install sqlite-async
 
 ## Pacotes npm utilizado:
 #### iniciar projeto 
