@@ -19,7 +19,41 @@ Depois o interessado em visitar orfanato consiguirá localizar, por meio das inf
 
 ### Back-End
 - Node
+
+### Banco de dados
 - SQL
+
+## Pacotes npm utilizado:
+#### iniciar projeto 
+- npm init -y
+
+#### Instalar Express
+- npm install express
+
+#### Para ligar o server
+- node src/server.js
+
+##### Alerta!
+Só com essas dependências você vai ter que cancelar e executar toda vez que você modificar uma arquivo.
+Para resolver isso, baixe a dependência Nodemon.
+
+#### Instalar Nodemon
+- npm install nodemon
+
+##### Configuração do package.json
+###### No package.json substitua test -> start
+- "test": "echo \"Error: no test specified\" && exit 1"
+
+##### Apague o valor de start e coloque
+- "start": "nodemon src/server.js"
+
+##### Agora no terminal execute
+- npm start
+
+Depois disso ele vai escutar qualquer alteração automaticamente
+
+#### Depois podemos instalar a dependência hbs(handlebars), é uma template enginee.
+- npm install hbs
 
 ## Referência
 #### Essa aplicação está sendo desenvolvida com base na semana NLW #3 ( Next Level Week #3) da Rocketseat, os creditos pertence a esse time incrível!
