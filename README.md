@@ -22,6 +22,7 @@ Depois o interessado em visitar orfanato consiguirá localizar, por meio das inf
 
 ### Banco de dados
 - SQL
+- SQLite
 
 ## Pacotes npm utilizado:
 #### iniciar projeto 
