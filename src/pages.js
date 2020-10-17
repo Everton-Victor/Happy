@@ -1,4 +1,3 @@
-const { catch } = require("./database/db");
 const Database = require("./database/db");
 const saveOrphanage = require("./database/saveOrphanage");
 
