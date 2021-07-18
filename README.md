@@ -61,7 +61,7 @@ Depois disso ele vai escutar qualquer alteração automaticamente
 - npm install hbs
 
 ## Referência
-#### Essa aplicação está sendo desenvolvida com base na semana NLW #3 ( Next Level Week #3) da Rocketseat, os creditos pertence a esse time incrível!
+#### Essa aplicação foi desenvolvida com base na semana NLW #3 ( Next Level Week #3) da Rocketseat, os creditos pertence a esse time incrível!
 #### Saiba mais: 
 - https://rocketseat.com.br/
 - https://github.com/Rocketseat
